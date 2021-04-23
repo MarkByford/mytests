@@ -1,0 +1,14 @@
+Scenario 1 -Return all details for a given country
+GIVEN that the CityBikes application has been developed and i am accessing with proper authentication
+WHEN I pass in only a country
+THEN I receive a list of separate results for all locations in thst country, including Latitude, Longitude, city,free_bikes and empty_slots 
+
+Scenario 2 -Return all details for a given city
+GIVEN that the CityBikes application has been developed and i am accessing with proper authentication
+WHEN I pass in only a city
+THEN I receive a list of separate results for all locations in thst city, including Latitude, Longitude, country,free_bikes and empty_slots
+
+Scenario 3 -Return all details for a given country/city
+GIVEN that the CityBikes application has been developed and i am accessing with proper authentication
+WHEN I pass in only a country and a city
+THEN I receive a list of separate results for all locations in thst country/city including Latitude, Longitude, free_bikes and empty_slots
