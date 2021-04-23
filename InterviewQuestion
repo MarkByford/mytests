@@ -39,3 +39,14 @@ WHEN I pass in no data
 THEN i receive no list of data but the system does not crash
 
 other ideas:
+Closest 10 if only longitude and latitude entered?
+Error if latitude entered but not longitude?
+Error if longitude entered but not latitude?
+Error if latitude entered but not numeric
+Error if longitude entered but not numeric
+Error if country entered but not alphabetic
+Error if city entered but not alphabetic
+Error if free-bikes less than 0
+Error if empty_slots less than 0
+Error if free_bikes not numeric
+Error if empty_slots not numeric
