@@ -33,3 +33,9 @@ GIVEN that the CityBikes application has been developed and i am accessing with 
 WHEN I pass in only a city and empty_slots is greater than 0
 THEN I receive a list of separate results for all locations in thst country/city including Latitude, Longitude, free_bikes and empty_slots
 
+Scenario 8 - API does not crash if no data passed in
+GIVEN that the CityBikes application has been developed and i am accessing with proper authentication
+WHEN I pass in no data
+THEN i receive no list of data but the system does not crash
+
+other ideas:
