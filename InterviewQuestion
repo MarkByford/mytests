@@ -50,3 +50,8 @@ Error if free-bikes less than 0
 Error if empty_slots less than 0
 Error if free_bikes not numeric
 Error if empty_slots not numeric
+
+Frankfurt scenario:
+GIVEN that the CityBikes application has been developed and i am accessing with proper authentication
+WHEN I pass in the city as 'Frankfurt'
+THEN I receive a list of results where any records returned have city = Frankfurt, country = GE, and the longitude and latitude returned are correct based on the data in the file provided
